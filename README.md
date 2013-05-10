@@ -1,5 +1,30 @@
-# Warm-Up Exercises
+# Warm-Ups
 
-We will release an exercise at 8:50 am daily. You have until 9:15 am to complete the assignment.
+A collection of exercises to be given at the start of the day, to encourage people to get to class sooner than necessary, get to work, and allow the brain to get engaged with the material.
 
-There will be 10 minutes at the end to wrap up. The format for this will vary.
+They should take about 15-20 minutes to solve.
+
+## Resources
+
+* Rosalind Institute
+* Euler Problems
+* ICP Archive
+* Chris Pine
+* Cattle Drive
+* Ultrasaurus's Test First Teaching
+* https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples/tree/master/TDDMicroExercises/Ruby
+
+## Ideas
+
+### Online Application
+
+Jumpstart Lab Warmup App
+- scheduling
+- (anonymous) ratings/feedback
+- showing solutions
+
+### Video series
+
+us solving problems and talking about it
+
+
