@@ -1,0 +1,29 @@
+Simple ideas brainstorm page. ± notes about how to actually achieve these. Overall goals would be nice
+Ω == Goals for exercise (opt + z)
+
+Pair programming scheduler
+  Extensions: 
+    Pair people by skill level (strong/weak, same/same)
+    Pair people by location
+    Triples by skill (strong/avg/weak)
+  Ω Ownership of pairing
+  Ω Ownership of program experience
+
+Rack app (suggested by @j3)
+  Minimal app which responds with standard [status, headers, [body]]
+  Extensions:
+    Use `mount` to accept multiple urls instead of regex on the `request.path`
+  Ω Understanding of underpinnings of Sinatra
+  Ω Demystifying Rack by doing something easy
+
+Rack middleware
+  Minimal middleware attached to sinatra project which:
+    Possible versions:
+      Runs code through HTMLTidy
+      Appends Google analytics tracker
+      Appends LiveReload snippet
+      Measures response time
+  Ω Demystify middlewares
+  Ω Empower to change input/output before Sinatra/Rails
+  Ω ? Deepen understanding of config.ru
+

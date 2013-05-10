@@ -1,0 +1,79 @@
+This needs some review but I believe it would help immensely to pull the steps out and let people focus on each step in isolation. This is meant to be somewhere near the beginning of the program; perhaps week 3 or so. (At PCS we dive into testing in week 2 so nothing should be foreign at this point. I believe gschool is the same way)
+
+Ω Develop algorithms quickly and completely
+Ω Build confidence around algorithms and testing
+Ω Demonstrate competence in algorithm development
+√ 3x5 study cards with tactics, patterns, and strategies for each stage
+
+Algorithm development walkthrough
+  Steps:
+    Gather requirements
+    Build toolbox
+    Whiteboard
+    Write tests
+    Write code
+
+  Day 1: (requirements gathering)
+    Read through four warmups:
+    Write out what we know about the problems.
+      How is the code supposed to be called?
+      What classes are listed in the description?
+      What methods/functions are listed in the description?
+        Are they functions or methods?
+        If they're methods, are they class or instance methods?
+        What arguments do the methods/functions take? How many?
+      What outputs are listed?
+    Are there any automated tests already?
+      Do these tests give you any more answers to the above questions?
+    √ Write lots of 3x5 cards about which classes and methods are being
+      suggested. Research these suggestions over the weekend.
+
+  Day 2: (building your toolbox)
+    Using the same four warmups:
+    Write out any libraries that are referenced in the documentation
+    Write out any methods/functions that are referenced in the documentation
+    Write out any built-in classes that are suggested or feel natural for the problem
+      (eg: Hash, Array, Fixnum, String)
+    Write out any `input -> output` translations and try to group them
+      What do these groups suggest?
+      Are there any edge cases that aren't listed? Negative numbers? Empty strings?
+    Are there any other methods that jump out to you?
+    √ Write lots of 3x5 cards about the methods you find. There are only a few
+      good solutions for problems. For instance, almost all String problems
+      use gsub or scan.
+    √ Write 3x5 cards for the groupings that you find. There are only a few
+      groupings for each type of answer. For instance, when dealing with describing
+      numbers, 0-12 are interesting, but the rest up to 99 all follow a similar
+      pattern. Or when dealing with Strings, the empty string "" is very interesting.
+
+  Day 3: (whiteboarding)
+    Using the same four warmups:
+    In Pseudo-code, english, or on the whiteboard, write out the process you think
+      you might follow to solve the problem
+    Telling a story can be remarkably effective. We're conditioned to think
+      about stories, not logical processes.
+    Start with: input -> magic -> output
+    Now start to whittle away at the magic from the front, then the back
+    When you can't whittle anymore, ask your neighbors
+    Change tack, maybe your initial whittle was wrong.
+    √ What tactics (patterns) are jumping out to you consistently? And which
+      tactics are you hearing about from your neighbors? Write these on 3x5 cards
+      to meditate on later.
+
+  Day 4: (automated testing)
+    Using the same four warmups:
+    Write out automated tests for each input/output in test/unit style
+    Write only enough code to make the tests fail for logical reasons
+      Write out classes, functions, and methods
+      Write out the correct require in the test file
+    Add skip to the beginning of each test once it's failing for purely logical
+      reasons
+    If your code includes puts/gets, ask for help in stubbing this out
+    √ Write out any testing strategies/patterns that you see repeating.
+      Analyze parts of your tests that are complicated or involve repetition.
+
+  Day 5: (writing code)
+    Using the same four warmups:
+    Finally, practice "evil coder" and try to make your program pass tests
+      without actually doing the right thing. If your tests expects that some
+      method returns 2, just make it return 2 and continue on.
