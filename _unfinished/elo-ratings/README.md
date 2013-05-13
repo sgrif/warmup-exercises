@@ -10,10 +10,11 @@ When two chess players compete, the winner effectively "takes" rating points fro
 
 ## ELO Basic Formula
 
-Rn = Ro + C * (1 - Se)
+Rx(new) = Rx(old) + C * (W - Se)
 
-Rn = new rating
-Ro = old rating
+Rx(new) = new rating
+Rx(old) = old rating
+W = 1 if the player won, 0 if they lost
 Se = expected score (see table)
 C = constant (this constant can technically change, but for the purposes of the exercise we will set the value to 30, a common value for the constant)
 
@@ -36,7 +37,13 @@ ELO Score Difference => Expected score
 80 => 0.58
 40 => 0.53
 0 => 0.50
+-40 => 0.47
 etc.
+
+Note that the sum of player1's expected score and player2's expected score
+is 1.0.
+
+Everyone starts with an Rx = 1400
 
 ## Source
 http://en.wikipedia.org/wiki/Elo_rating_system
