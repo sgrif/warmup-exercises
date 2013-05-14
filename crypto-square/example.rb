@@ -13,7 +13,7 @@ class Crypto
   end
 
   def plaintext_segments
-    normalize_plaintext.scan(/.{,#{size}}/).reject {|chunk| chunk.empty?}
+    normalize_plaintext.scan(/.{1,#{size}}/)
   end
 
   def ciphertext
@@ -28,6 +28,6 @@ class Crypto
   end
 
   def normalize_ciphertext
-    ciphertext.scan(/.{,5}/).join(" ").strip
+    ciphertext.scan(/.{1,5}/).join(" ")
   end
 end
