@@ -2,7 +2,7 @@ Simple ideas brainstorm page. ± notes about how to actually achieve these. Over
 Ω == Goals for exercise (opt + z)
 
 Pair programming scheduler
-  Extensions: 
+  Extensions:
     Pair people by skill level (strong/weak, same/same)
     Pair people by location
     Triples by skill (strong/avg/weak)
@@ -27,3 +27,9 @@ Rack middleware
   Ω Empower to change input/output before Sinatra/Rails
   Ω ? Deepen understanding of config.ru
 
+Implement and algorithm (instead of building one). Something like ELO or lzw
+"Fix a bug" series
+Idempotent functions
+Law of Demeter. Pick your friends, pick your nose, pick your friends nose.
+Recursion
+Simple sorts
