@@ -1,4 +1,5 @@
 require 'minitest/autorun'
+require 'minitest/pride'
 require_relative './queens'
 
 class QueensTest < MiniTest::Unit::TestCase
