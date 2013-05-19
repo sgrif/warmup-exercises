@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './beer'
+require_relative 'beer'
 
 class BeerTest < MiniTest::Unit::TestCase
 

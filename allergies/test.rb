@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './allergies'
+require_relative 'allergies'
 
 class AllergiesTest < MiniTest::Unit::TestCase
 

@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './anagram'
+require_relative 'anagram'
 
 class AnagramTest < MiniTest::Unit::TestCase
 

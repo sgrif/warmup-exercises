@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './DNA'
+require_relative 'dna'
 
 class DNATest < MiniTest::Unit::TestCase
 

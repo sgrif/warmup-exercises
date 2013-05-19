@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './octal'
+require_relative 'octal'
 
 class OctalTest < MiniTest::Unit::TestCase
   def test_octal_1_is_decimal_1

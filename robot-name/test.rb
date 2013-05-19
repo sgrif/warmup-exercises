@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './robot'
+require_relative 'robot'
 
 class RobotTest < MiniTest::Unit::TestCase
   def test_has_name

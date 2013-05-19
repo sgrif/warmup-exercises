@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './school'
+require_relative 'school'
 
 class SchoolTest < MiniTest::Unit::TestCase
 

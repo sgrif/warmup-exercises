@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './triangle'
+require_relative 'triangle'
 
 class TriangeTest < MiniTest::Unit::TestCase
   def test_equilateral_triangles_have_equal_sides

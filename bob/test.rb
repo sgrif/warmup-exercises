@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './bob'
+require_relative 'bob'
 
 class BobTest < MiniTest::Unit::TestCase
   attr_reader :bob

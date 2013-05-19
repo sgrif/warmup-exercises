@@ -1,10 +1,10 @@
 require 'minitest/autorun'
-require_relative './example'
+require 'minitest/pride'
+require_relative 'gigasecond'
 
 class GigasecondTest < MiniTest::Unit::TestCase
 
   def test_1
-    skip
     gs = Gigasecond.new(Date.new(2011, 4, 25))
     assert_equal Date.new(2043, 1, 1), gs.date
   end

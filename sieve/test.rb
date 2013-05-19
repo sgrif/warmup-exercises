@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './sieve'
+require_relative 'sieve'
 
 class SieveTest < MiniTest::Unit::TestCase
 

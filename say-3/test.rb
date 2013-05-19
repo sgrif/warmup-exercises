@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './say'
+require_relative 'say'
 
 class SayTest < MiniTest::Unit::TestCase
   def test_0

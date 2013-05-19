@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './trinary'
+require_relative 'trinary'
 
 class TrinaryTest < MiniTest::Unit::TestCase
   def test_trinary_1_is_decimal_1

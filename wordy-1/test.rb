@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './calculator'
+require_relative 'calculator'
 
 class CalculatorTest < MiniTest::Unit::TestCase
   def setup

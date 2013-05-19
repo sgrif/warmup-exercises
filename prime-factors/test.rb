@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './prime_factors'
+require_relative 'prime_factors'
 
 class PrimeFactorsTest < MiniTest::Unit::TestCase
 

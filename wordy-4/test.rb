@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './word_problem'
+require_relative 'word_problem'
 
 class WordProblemTest < MiniTest::Unit::TestCase
   def test_add_1

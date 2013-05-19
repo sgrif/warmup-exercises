@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './example'
+require_relative 'hexadecimal'
 
 class HexadecimalTest < MiniTest::Unit::TestCase
   def test_hex_1_is_decimal_1

@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './matrix'
+require_relative 'matrix'
 
 class MatrixTest < MiniTest::Unit::TestCase
 

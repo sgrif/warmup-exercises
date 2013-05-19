@@ -1,8 +1,8 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './example'
+require_relative 'palindromes'
 
-class PalindromeTest < MiniTest::Unit::TestCase
+class PalindromesTest < MiniTest::Unit::TestCase
 
   def test_largest_palindrome_from_single_digit_factors
     palindromes = Palindromes.new(max_factor: 9)

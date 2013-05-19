@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './triplet'
+require_relative 'triplet'
 
 class TripletTest < MiniTest::Unit::TestCase
   def test_sum

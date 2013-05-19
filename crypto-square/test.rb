@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './crypto'
+require_relative 'crypto'
 
 class CryptoTest < MiniTest::Unit::TestCase
   def test_normalize_strange_characters

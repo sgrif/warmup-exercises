@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative './roman'
+require_relative 'roman'
 
 class RomanTest < MiniTest::Unit::TestCase
 
