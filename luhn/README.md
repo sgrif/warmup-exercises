@@ -4,7 +4,7 @@ Write a program that can take a number and determine whether or not it is valid 
 
 The Luhn formula is a simple checksum formula used to validate a variety of identification numbers, such as credit card numbers and Canadian Social Insurance Numbers.
 
-The formula verifies a number against its included check digit, which is usually appended to a partial account number to generate the full account number. This account number must pass the following test:
+The formula verifies a number against its included check digit, which is usually appended to a partial number to generate the full number. This number must pass the following test:
 
 Counting from rightmost digit (which is the check digit) and moving left, double the value of every second digit.
 
@@ -16,6 +16,14 @@ Add all these digits together. For example, if 1111 becomes 2121, then 2+1+2+1 i
 
 If the total ends in 0 (put another way, if the total modulus 10 is congruent to 0), then the number is valid according to the Luhn formula; else it is not valid. So, 1111 is not valid (as shown above, it comes out to 6), while 8763 is valid (as shown above, it comes out to 20).
 
-Sample valid number:
-2323-2005-7766-3554
+Write a program that, given a number
+
+a) can check if it is valid per the Luhn formula.
+b) can add a check digit to make the number valid per the Luhn formula.
+
+
+```ruby
+Luhn.new(2323_2005_7766_3554).valid?
+# => true
+```
 
