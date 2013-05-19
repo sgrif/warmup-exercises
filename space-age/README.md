@@ -1,6 +1,6 @@
 # Space Age
 
-Write a program that, given an age in seconds, calculates how old someone is in standard Earth years.
+Write a program that, given an age in seconds, calculates how old someone is.
 
 Given an age in seconds, calculate how old someone would be on:
    - Earth (orbital period 365.25 Earth days, or 31557600 seconds)
@@ -11,6 +11,11 @@ Given an age in seconds, calculate how old someone would be on:
    - Saturn (orbital period 29.447498 Earth years)
    - Uranus (orbital period 84.016846 Earth years)
    - Neptune (orbital period 164.79132 Earth years)
+
+```ruby
+age = SpaceAge.new(1_000_000_000)
+assert_equal 31, age.on_earth
+```
 
 If you're wondering why Pluto didn't make the cut, go watch [this youtube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
 

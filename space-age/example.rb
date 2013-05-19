@@ -6,44 +6,48 @@ class SpaceAge
   end
 
   def on_earth
-    seconds / seconds_per_earth_year
+    earth_year.round(2)
   end
 
   def on_mercury
-    (on_earth / 0.2408467).round(2)
+    (earth_year / 0.2408467).round(2)
   end
 
   def on_venus
-    (on_earth / 0.61519726).round(2)
+    (earth_year / 0.61519726).round(2)
   end
 
   def on_mars
-    (on_earth / 1.8808158).round(2)
+    (earth_year / 1.8808158).round(2)
   end
 
   def on_jupiter
-   (on_earth / 11.862615).round(2)
+   (earth_year / 11.862615).round(2)
   end
 
   def on_saturn
-   (on_earth / 29.447498).round(2)
+   (earth_year / 29.447498).round(2)
   end
 
   def on_uranus
-   (on_earth / 84.016846).round(2)
+   (earth_year / 84.016846).round(2)
   end
 
   def on_neptune
-   (on_earth / 164.79132).round(2)
+   (earth_year / 164.79132).round(2)
   end
 
   private
+
+  def earth_year
+    seconds / seconds_per_earth_year
+  end
 
   def seconds_per_day
     60 * 60 * 24
   end
 
   def seconds_per_earth_year
-    31557600
+    31557600.0
   end
 end
