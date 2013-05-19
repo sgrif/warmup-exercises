@@ -1,3 +1,5 @@
+NOTE: This is currently being split into two warmups
+
 **Thoughts** This is might be too big for one warm-up, but could
 possibly make a good candidate for a warmup that builds on the previous
 day's work e.g. warm-up 1 would be to implement `Bst#insert`, and warmup-2
