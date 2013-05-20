@@ -1,5 +1,5 @@
 class Cipher
-  def initialize(key="d")
+  def initialize(key)
     @key = key
     @key_bytes = to_bytes(@key)
   end
@@ -27,6 +27,8 @@ class Cipher
 
     return plaintext
   end
+
+  private
 
   def to_bytes(string)
     string.unpack("c*").map {|c| c - 97}
