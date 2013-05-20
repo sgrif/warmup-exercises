@@ -11,5 +11,7 @@ The number consists of four rows high, three columns wide:
 
 Write a program that, given a 3 x 4 grid of pipes, underscores, and spaces, can determine which number is represented, or whether it is garbled.
 
+There may be several numbers in the input text, one per line.
+
 ## Source
 Inspired by the [Bank OCR kata](http://codingdojo.org/cgi-bin/wiki.pl?KataBankOCR).
