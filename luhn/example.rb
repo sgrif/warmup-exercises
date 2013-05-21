@@ -12,10 +12,6 @@ class Luhn
     @number = number
   end
 
-  def check_digit
-    number % 10
-  end
-
   def addends
     numbers = []
     number.to_s.reverse.split("").map(&:to_i).each_with_index do |n, i|

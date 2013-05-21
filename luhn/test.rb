@@ -4,19 +4,7 @@ require_relative 'luhn'
 
 class LuhnTest < MiniTest::Unit::TestCase
 
-  def test_check_digit
-    luhn = Luhn.new(34567)
-    assert_equal 7, luhn.check_digit
-  end
-
-  def test_check_digit_again
-    skip
-    luhn = Luhn.new(91370)
-    assert_equal 0, luhn.check_digit
-  end
-
   def test_addends
-    skip
     luhn = Luhn.new(12121)
     assert_equal [1, 4, 1, 4, 1], luhn.addends
   end
