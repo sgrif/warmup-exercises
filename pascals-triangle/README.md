@@ -15,4 +15,5 @@ right and left of the current position in the previous row.
 Write a program that computes Pascal's triangle up to a given number of rows.
 
 ## Source
-[Pascal's Triangle](http://en.wikipedia.org/wiki/Pascals_Triangle) at Wikipedia
+[Pascal's Triangle](http://mathworld.wolfram.com/PascalsTriangle.html) at
+Wolfram Math World
