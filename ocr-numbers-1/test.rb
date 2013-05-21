@@ -3,19 +3,7 @@ require 'minitest/pride'
 require_relative 'ocr'
 
 class OCRTest < MiniTest::Unit::TestCase
-
-  def test_recognize_one
-    text = <<-NUMBER.chomp
-   
-  |
-  |
-   
-    NUMBER
-    assert_equal "1", OCR.new(text).convert
-  end
-
   def test_recognize_zero
-    skip
     text = <<-NUMBER.chomp
  _ 
 | |
@@ -23,6 +11,17 @@ class OCRTest < MiniTest::Unit::TestCase
    
     NUMBER
     assert_equal "0", OCR.new(text).convert
+  end
+
+  def test_recognize_one
+    skip
+    text = <<-NUMBER.chomp
+   
+  |
+  |
+   
+    NUMBER
+    assert_equal "1", OCR.new(text).convert
   end
 
   def test_identify_garble
