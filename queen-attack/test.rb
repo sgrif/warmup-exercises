@@ -40,6 +40,38 @@ O O O O O O O O
     assert_equal board, queens.to_s
   end
 
+  def test_another_string_representation
+    skip
+    queens = Queens.new(white: [7, 1], black: [0, 0])
+    board = <<-BOARD.chomp
+B O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O W O O O O O O
+    BOARD
+    assert_equal board, queens.to_s
+  end
+
+  def test_yet_another_string_representation
+    skip
+    queens = Queens.new(white: [4, 3], black: [3, 4])
+    board = <<-BOARD.chomp
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O B O O O
+O O O W O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+    BOARD
+    assert_equal board, queens.to_s
+  end
+
   def test_cannot_attack
     skip
     queens = Queens.new(white: [2, 3], black: [4, 7])
