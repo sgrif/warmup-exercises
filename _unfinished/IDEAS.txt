@@ -9,6 +9,8 @@ Pair programming scheduler
   Ω Ownership of pairing
   Ω Ownership of program experience
 
+
+
 Rack app (suggested by @j3)
   Minimal app which responds with standard [status, headers, [body]]
   Extensions:
@@ -27,9 +29,17 @@ Rack middleware
   Ω Empower to change input/output before Sinatra/Rails
   Ω ? Deepen understanding of config.ru
 
-Implement and algorithm (instead of building one). Something like ELO or lzw
+Implement an algorithm (instead of building one). Something like ELO or lzw
 "Fix a bug" series
 Idempotent functions
 Law of Demeter. Pick your friends, pick your nose, pick your friends nose.
 Recursion
+
 Simple sorts
+  Bubble sort
+  Insertion sort
+  Quicksort
+
+Datastructures
+  Linked List
+  BTree
