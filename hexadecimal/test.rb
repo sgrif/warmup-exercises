@@ -27,7 +27,7 @@ class HexadecimalTest < MiniTest::Unit::TestCase
     assert_equal 256, Hexadecimal.new("100").to_decimal
   end
 
-  def test_hex_12ace_is_decimal_105166
+  def test_hex_19ace_is_decimal_105166
     skip
     assert_equal 105166, Hexadecimal.new("19ace").to_decimal
   end
