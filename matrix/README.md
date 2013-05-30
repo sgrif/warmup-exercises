@@ -3,7 +3,7 @@
 Write a program that, given a string representing a matrix of numbers, can
 return the rows and columns of that matrix.
 
-```text
+```plain
     0  1  2
   |---------
 0 | 9  8  7
