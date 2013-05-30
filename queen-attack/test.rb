@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'queens'
+require_relative 'example'
 
 class QueensTest < MiniTest::Unit::TestCase
 
@@ -15,6 +15,16 @@ class QueensTest < MiniTest::Unit::TestCase
     queens = Queens.new(white: [3, 7], black: [6, 1])
     assert_equal [3, 7], queens.white
     assert_equal [6, 1], queens.black
+  end
+
+  def test_multiple_boards_simultaneously
+    skip
+    queens1 = Queens.new(white: [3, 7], black: [6, 1])
+    queens2 = Queens.new(white: [5, 4], black: [7, 7])
+    assert_equal [3, 7], queens1.white
+    assert_equal [6, 1], queens1.black
+    assert_equal [5, 4], queens2.white
+    assert_equal [7, 7], queens2.black
   end
 
   def test_cannot_occupy_same_space
