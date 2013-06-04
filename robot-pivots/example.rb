@@ -3,28 +3,28 @@ class Robot
   attr_accessor :bearing
 
   def orient(direction)
-    unless cardinal_directions.include?(direction)
+    unless compass.include?(direction)
       raise ArgumentError
     end
     self.bearing = direction
   end
 
   def turn_right
-    turn(:+)
+    rotate(:+)
   end
 
   def turn_left
-    turn(:-)
+    rotate(:-)
   end
 
   private
 
-  def turn(sign)
-    i = cardinal_directions.index(bearing)
-    self.bearing = cardinal_directions[i.send(sign, 1) % 4]
+  def rotate(sign)
+    i = compass.index(bearing)
+    self.bearing = compass[i.send(sign, 1) % 4]
   end
 
-  def cardinal_directions
+  def compass
     [:north, :east, :south, :west]
   end
 
