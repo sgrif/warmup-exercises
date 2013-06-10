@@ -13,6 +13,7 @@ They should take about 15-20 minutes to solve.
 * Cattle Drive
 * Ultrasaurus's Test First Teaching
 * https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples/tree/master/TDDMicroExercises/Ruby
+* SmallBASIC 'homework' problems from Teaching Kids Programming
 
 ## Ideas
 
