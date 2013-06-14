@@ -32,10 +32,7 @@ class Garden
 
   def assign_pots
     students.each_with_index do |student, i|
-      self.class.send(:define_method, student.downcase) do
-        position = i*2
-        pots[0][position,2] + pots[1][position,2]
-      end
+      instance_eval "def #{student.downcase}; position = #{i}*2; pots[0][position,2] + pots[1][position,2]; end"
     end
   end
 
