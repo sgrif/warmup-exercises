@@ -9,7 +9,18 @@ Pair programming scheduler
   Ω Ownership of pairing
   Ω Ownership of program experience
 
+Reading good code challenges
+  http://www.rubyflow.com/items/1817
 
+Other crypto things
+  [Diffie-Hellman](http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
+  Build a cipher breaker using the unix wordlist
+  Cryptographic Hashes for storing passwords
+  Solitaire: http://www.rubyquiz.com/quiz1.html | https://github.com/scottwainstock/ruby-quiz/tree/master/01
+
+Recursion problems
+  Fib/fac
+  Quicksort
 
 Rack app (suggested by @j3)
   Minimal app which responds with standard [status, headers, [body]]
@@ -29,17 +40,13 @@ Rack middleware
   Ω Empower to change input/output before Sinatra/Rails
   Ω ? Deepen understanding of config.ru
 
-Implement an algorithm (instead of building one). Something like ELO or lzw
+Implement a published algorithm (instead of building one). Something like LZW
 "Fix a bug" series
-Idempotent functions
 Law of Demeter. Pick your friends, pick your nose, pick your friends nose.
-Recursion
 
 Simple sorts
-  Bubble sort
-  Insertion sort
-  Quicksort
+  Bubble/insertion/merge
 
 Datastructures
-  Linked List
   BTree
+  Graph
