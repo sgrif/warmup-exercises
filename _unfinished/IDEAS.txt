@@ -1,3 +1,6 @@
+Sources:
+  Ruby quiz - http://rubyquiz.strd6.com/
+
 Simple ideas brainstorm page. ± notes about how to actually achieve these. Overall goals would be nice
 Ω == Goals for exercise (opt + z)
 
@@ -50,3 +53,7 @@ Simple sorts
 Datastructures
   BTree
   Graph
+  
+Simple AIs
+  Connect 4
+
