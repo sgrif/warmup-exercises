@@ -25,10 +25,10 @@ Phone.prototype = {
     return this.number().substr(3,3);
   },
   numberSuffix: function() {
-    return this.number().substr(6,4)
+    return this.number().substr(6,4);
   },
   toString: function() {
     return "(" + this.areaCode() + ") " + this.numberPrefix() + "-" + this.numberSuffix();
   }
 
-}
+};
