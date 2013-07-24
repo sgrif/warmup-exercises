@@ -4,6 +4,8 @@ Sources:
 Simple ideas brainstorm page. ± notes about how to actually achieve these. Overall goals would be nice
 Ω == Goals for exercise (opt + z)
 
+Pangram calculator
+
 Pair programming scheduler
   Extensions:
     Pair people by skill level (strong/weak, same/same)
